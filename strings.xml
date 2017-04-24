@@ -1,0 +1,644 @@
+<resources>
+    <string name="kilometer" translatable="false">Km</string>
+
+    <!-- THIS IS A TEST STRING FOR SMARLTING CONNECTOR -->
+    <string name="rama_test_string_smartling">The cat is not under the chair</string>
+	
+    <!-- HOME FRAGMENT -->
+    <string name="search_radious" translatable="false">%1$s %2$s</string>
+    <string name="search_radious_more" translatable="false">+%1$s %2$s</string>
+    <string name="search_radious_blocks">Within %1$s blocks from you</string>
+
+    <!-- DATE -->
+    <string name="date_just_now">Just now</string>
+    <string name="date_days_ago">%1$s days ago</string>
+    <string name="date_minutes_ago">%1$s mins ago</string>
+    <string name="date_hours_ago">%1$s hours ago</string>
+    <string name="date_custom">EEEE, MMMM d</string>
+
+    <!-- SEARCH ACTIVITY -->
+    <string name="search_label">Search in %1$s</string>
+    <string name="search">Search</string>
+    <string name="search_hint">i.e. Bicycle</string>
+    <string name="nav_discover">Home</string>
+    <string name="nav_profile">My Profile</string>
+    <string name="nav_enter">Login</string>
+    <string name="nav_publish">Post</string>
+    <string name="nav_edit">Edit</string>
+    <string name="nav_messages">Chat</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_share_app">Invite Friends</string>
+    <string name="nav_preferences">Settings</string>
+    <string name="nav_filter">Filter</string>
+    <string name="search_select_location">Select your location</string>
+    <string name="search_price_from">From:</string>
+    <string name="search_price_to">To:</string>
+
+    <string name="messages">Chat</string>
+    <string name="search_clear_all_filters">Clear all</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="login_email">Log in with your email</string>
+    <string name="username_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="show_password">Show password</string>
+
+    <string name="login_description">LOGIN TO CONTINUE\n You will be able to chat, buy and sell.</string>
+    <string name="accept_terms"><![CDATA[ I agree to the <b>terms and conditions</b>. ]]></string>
+    <string name="terms_error_message">You must agree to the terms and conditions to continue</string>
+
+    <!-- PROFILE ACTIVITY -->
+    <string name="verified_accounts">Verified accounts</string>
+    <string name="ads_published">Listed</string>
+    <string name="ads_favorite">Liked</string>
+    <string name="ads_bought">Bought</string>
+    <string name="empty_published_ads_subtitle">Sell anything you don\'t use anymore</string>
+    <string name="empty_favorites_ads_subtitle">Build trust by\nshowing the items you like</string>
+    <string name="empty_bought_ads_subtitle">There are hundreds of items for you!</string>
+    <string name="empty_published_ads_title">You haven\'t listed anything yet</string>
+    <string name="empty_favorites_ads_title">You haven\'t liked anything yet</string>
+    <string name="empty_bought_ads_title">You haven\'t bought anything yet</string>
+    <string name="publish">Post</string>
+    <string name="discover">Discover</string>
+    <string name="empty_published_ads_not_me">%1$s hasn\'t listed anything yet</string>
+    <string name="empty_favorites_ads_not_me">%1$s hasn\'t liked anything yet</string>
+    <string name="empty_bought_ads_not_me">%1$s hasn\'t bought anything yet</string>
+    <string name="profile_follower_count_one_plurals"><![CDATA[ <b>%1$s</b> Follower]]></string>
+    <string name="profile_follower_count_other_plurals"><![CDATA[ <b>%1$s</b> Followers]]></string>
+    <string name="profile_following_count"><![CDATA[ <b>%1$s</b> Following]]></string>
+
+    <string name="profile_share">Check out %1$s\'s profile on #%2$s %3$s</string>
+    <string name="profile_share_own">Follow me on #%1$s to see my ads! %2$s</string>
+
+    <!-- PROFILE FRIENDS IN COMMON -->
+    <string name="friends_common_facebook_subtitle_one_plural">%1$s Facebook mutual friend</string>
+    <string name="friends_common_facebook_subtitle_other_plural">%1$s Facebook mutual friends</string>
+    <string name="friends_common_subtitle_one_plural">%1$s mutual friend</string>
+    <string name="friends_common_subtitle_other_plural">%1$s mutual friends</string>
+    <string name="friends_common_delorean_count_one_plural">%1$s of them in %2$s:</string>
+    <string name="friends_common_delorean_count_other_plural">%1$s of them in %2$s:</string>
+
+    <!-- MUTUAL FRIENDS -->
+    <string name="mutual_friends_counter_following">Following</string>
+    <string name="mutual_friends_counter_empty">No mutual friends yet</string>
+    <string name="mutual_friends_user_not_logged_title">Do your friends know %1$s?</string>
+    <string name="mutual_friends_user_not_logged_text">Log in with %1$s to find out</string>
+    <string name="mutual_friends_user_not_logged_button">Log in</string>
+    <string name="mutual_friends_user_link_account_text">Link your %1$s account to find out</string>
+    <string name="mutual_friends_user_permission_title">We need your permission</string>
+    <string name="mutual_friends_user_permission_text">To show your mutual friends in %1$s, we need to access your %2$s friends list.</string>
+    <string name="mutual_friends_user_permission_button">Allow</string>
+    <string name="mutual_friends_user_empty_title">You don\'t have mutual friends with %1$s</string>
+    <string name="mutual_friends_user_empty_text">To find out if you have mutual friends with %2$s, invite your friends to %1$s!</string>
+    <string name="mutual_friends_user_share_button">Invite</string>
+    <string name="mutual_friends_user_facebook_title_one_plural">%1$s mutual friend in %3$s with %2$s!</string>
+    <string name="mutual_friends_user_facebook_title_other_plural">%1$s mutual friends in %3$s with %2$s!</string>
+    <string name="mutual_friends_user_facebook_text">But none of them use %1$s yet. To find out who they are, invite your friends to %1$s now!</string>
+    <string name="mutual_friends_user_title_one_plural">%1$s mutual friend with %2$s!</string>
+    <string name="mutual_friends_user_title_other_plural">%1$s mutual friends with %2$s!</string>
+    <string name="mutual_friends_user_button">View more</string>
+
+    <!-- POSTING ACTIVITY -->
+    <string name="category_spinner_hint">Choose a category</string>
+    <string name="menu_clean">Delete post</string>
+    <string name="title_posting_form">What do you want to sell today?</string>
+    <string name="title">Selling</string>
+    <string name="title_hint">i.e. 21 speed 26\" Bicycle</string>
+    <string name="description">Description</string>
+    <string name="description_hint">i.e. My first bicycle, year 2011, in perfect condition</string>
+    <string name="price">Price</string>
+    <string name="price_hint">How much is it?</string>
+    <string name="post_button">Post</string>
+    <string name="name">Enter your name</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="location">Ad location shown</string>
+    <string name="btn_post_map">Use this location</string>
+    <string name="posting_error_image_deleted">Some of the images are not anymore in this device</string>
+    <string name="posting_next">Next</string>
+    <string name="posting_details_title">add more details</string>
+    <string name="posting_additional_info">Additional information</string>
+    <string name="posting_selected_pictures">Selected pictures</string>
+    <string name="posting_cover_picture">Cover</string>
+    <string name="posting_selected_hint">Select one or more photos to continue</string>
+
+
+    <!-- HOME BANNER -->
+    <string name="posting_notification_retry">Connection error while posting</string>
+    <string name="posting_notification_retry_button">Retry</string>
+    <string name="posting_notification_modify">Your listing can\'t be published</string>
+    <string name="posting_notification_modify_button">Modify</string>
+    <string name="posting_notification_aproved">Your listing is waiting to go live</string>
+    <string name="posting_notification_aproved_button">OK</string>
+    <string name="posting_banner_progress">Posting your listing &#8230;</string>
+
+    <!-- POSTING Toast -->
+    <string name="empty_selected_images">Please select at least one picture</string>
+    <string name="posting_error_in_fields">Please solve the errors on the fields</string>
+    <string name="draft_removed">Draft Removed</string>
+    <string name="draft_saved">Draft Saved</string>
+    <string name="empty_category">Please select a category</string>
+    <string name="empty_price">Please enter a price</string>
+
+    <!-- EDIT ITEM ACTIVITY -->
+    <string name="edit_item_dialog_draft_title">You have a draft</string>
+    <string name="edit_item_dialog_draft_message">To continue you need to discard the draft for: %1$s</string>
+    <string name="edit_item_dialog_draft_ok">Discard</string>
+    <string name="edit_item_dialog_draft_cancel">Cancel</string>
+    <string name="edit_item_dialog_pending_title">You have a pending edition</string>
+    <string name="edit_item_dialog_pending_message">To continue you need to discard the draft for: %1$s</string>
+    <string name="edit_item_dialog_pending_ok">Discard</string>
+    <string name="edit_item_dialog_pending_cancel">Cancel</string>
+
+    <!-- CHAT -->
+    <string name="enter_message">Enter your message&#8230;</string>
+    <string name="empty_inbox_title">No chats yet?</string>
+    <string name="empty_inbox_subtitle">Browse interesting items\n and start a conversation!</string>
+    <string name="menu_copy_message">Copy message</string>
+
+    <!-- CONNECTION ERROR -->
+    <string name="connection_error_title">Oops! You have no connection.</string>
+    <string name="connection_error_subtitle">You can try climbing up an antenna\n or just retrying later ;)</string>
+
+    <!-- EDIT PROFILE ACTIVITY -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_profile_change_photo">Change picture</string>
+    <string name="edit_profile_name_title">Name</string>
+    <string name="edit_profile_about_title">Something about you</string>
+    <string name="edit_profile_name_hint">i.e. Mike Johnson</string>
+    <string name="edit_profile_about_hint">i.e. I love biking and hiking</string>
+    <string name="edit_profile_contact_title">Build trust among buyers</string>
+    <string name="edit_profile_location_title">In which area are you?</string>
+    <string name="view_profile_social_verify">Link</string>
+    <string name="view_profile_social_facebook">Facebook</string>
+    <string name="view_profile_social_google">Google +</string>
+    <string name="view_profile_social_phone">Phone</string>
+    <string name="change_photo_take_photo">Take a picture</string>
+    <string name="change_photo_send_photo">Select from gallery</string>
+    <string name="edit_profile_update">Update</string>
+    <string name="edit_profile_updating">Updating &#8230;</string>
+    <string name="linking_account">Verifying account &#8230;</string>
+    <string name="dialog_link_account_negative">Cancel</string>
+    <string name="dialog_alert">Discard changes?</string>
+
+    <!-- MAKE A OFFER -->
+    <string name="make_offer_title">Make an offer</string>
+    <string name="make_offer_positive">Send</string>
+    <string name="make_offer_value_title">How much is your offer?</string>
+    <string name="make_offer_value_hint">i.e. 100</string>
+    <string name="make_offer_value_empty">Please enter a bid</string>
+    <string name="make_offer_value_low">The bid should be higher than %1$s</string>
+    <string name="make_offer_value_high">The bid should be lower than %1$s</string>
+    <string name="make_offer_chat_offer">I offer %1$s</string>
+    <string name="make_offer_value_error">Please enter a valid price</string>
+
+    <!-- ITEM DETAIL -->
+    <string name="share_own">Share it with your friends</string>
+    <string name="share">Ask a friend about it</string>
+    <string name="item_details_share_fb">I\'ve found this in #%2$s: %1$s</string>
+    <string name="item_details_share_fb_own">I\'m selling this in #%2$s: %1$s</string>
+    <string name="item_details_share">I\'ve found this in #%3$s. What do you think? %1$s %2$s</string>
+    <string name="item_details_share_own">I\'m selling this in #%3$s: %1$s %2$s</string>
+    <string name="item_details_sold_title">Mark as sold</string>
+    <string name="item_details_sold_message">We will show your article as sold to other users.\nYou won\'t be able to edit it anymore.</string>
+    <string name="item_details_sold_ok">Mark as sold</string>
+    <string name="item_details_delete_ok">Delete</string>
+    <string name="item_details_btn_mark_as_sold">Mark as sold</string>
+    <string name="item_details_btn_edit">Edit</string>
+    <string name="item_details_btn_delete">Delete</string>
+    <string name="item_details_btn_modify">Modify</string>
+    <string name="item_details_delete_ad_title">Delete listing</string>
+    <string name="item_details_delete_ad_message">You are about to delete your listing\nYou won\'t be able to undo this.</string>
+    <string name="removing_ad">Deleting listing &#8230;</string>
+    <string name="marking_as_sold">Marking as sold &#8230;</string>
+    <string name="item_details_favourite_not_active">This listing is not active yet</string>
+    <string name="item_details_see_profile">See profile</string>
+    <string name="item_rejected_why">Why</string>
+    <string name="missing_registration" translatable="false">Please finish registration first.</string>
+
+    <!-- DRAWER -->
+    <string name="nav_header_unsigned_title">Log in or create your account!</string>
+    <string name="nav_header_unsigned_subtitle">Buy, sell and chat\nin the %1$s community.</string>
+    <string name="empty_search_title">Mmm&#8230; We didn\'t find\nanything for this search :(</string>
+    <string name="empty_search_subtitle">You can try a more general search\nor checking the spelling.</string>
+
+    <!-- BADGED -->
+    <string name="badge_sold">Sold</string>
+    <string name="badge_out_date">Expired</string>
+    <string name="badge_blocked">Pending</string>
+    <string name="badge_moderated_soft">Modify</string>
+    <string name="badge_moderated_hard">Rejected</string>
+    <string name="badge_delete">Deleted</string>
+    <string name="badge_flag_new">New</string>
+    <string name="badge_flag_hot">Hot</string>
+    <string name="edit_item_update_button">Update</string>
+
+    <!-- MARK AS SOLD -->
+    <string name="mark_as_sold_title">Mark as sold</string>
+    <string name="mark_as_sold_who">Who bought your item?</string>
+    <string name="mark_as_sold_someone">Someone outside %1$s</string>
+    <string name="mark_as_sold_btn">I sold it</string>
+    <string name="mark_as_sold_ask_someone">You will mark your item as sold to %1$s</string>
+
+    <!-- HELP-->
+    <string name="help_title">Help</string>
+
+    <!-- SHARE APP -->
+    <string name="share_app">Connect with me on #%2$s, buying and selling is there much easier: %1$s</string>
+
+    <!-- EMAIL VALIDATION -->
+    <string name="email_validation_error">Please insert a valid email</string>
+
+    <!-- DEEP LINK -->
+
+    <!-- FACEBOOK -->
+    <string name="facebook_email_denied">We need your Facebook email permissions</string>
+    <string name="facebook_friends_denied">We need your Facebook friends permissions to show mutual friends with other users</string>
+
+    <!-- LOCATION -->
+    <string name="msg_only_one_account_is_supported">Only one account is allowed on %1$s.</string>
+
+    <!-- CONVERSATION -->
+    <string name="contextual_menu_archive">Archive</string>
+    <string name="contextual_menu_block">Block</string>
+
+    <string name="dialog_archive_conversation_title">Archive conversation</string>
+    <string name="dialog_archive_conversation_message">Are you sure you want to archive this conversation?</string>
+    <string name="dialog_archive_conversation_ok">Archive</string>
+
+    <string name="dialog_block_conversation_title">Archive and mute conversation</string>
+    <string name="dialog_block_conversation_message">The conversation will be archived and you won\'t receive anymore chats from it. Are you sure?</string>
+    <string name="dialog_block_conversation_ok">Archive and mute</string>
+
+    <!-- UNFOLLOW USER -->
+    <string name="dialog_unfollow_conversation_title">Do you want to unfollow %1$s?</string>
+    <string name="dialog_unfollow_conversation_message">You will have to find this user again</string>
+    <string name="dialog_unfollow_conversation_ok">Unfollow</string>
+
+    <!-- RATE -->
+    <string name="dialog_rate_message">It would be great if you could rate us on Google Play. Can you?</string>
+    <string name="dialog_rate_ok">Rate now</string>
+    <string name="dialog_rate_cancel">Not now</string>
+
+    <!-- FOLLOW LIST-->
+    <string name="follow_action_bar_title_for_logged_user">My network</string>
+    <string name="follow_action_bar_title">%1$s\'s Network</string>
+    <string name="mutual_action_bar_title">In common with %1$s</string>
+    <string name="follow_first_tab_title">Following</string>
+    <string name="follow_second_tab_title">Followers</string>
+    <string name="follow_third_tab_title">Find Friends</string>
+
+    <string name="following_other_empty_title">%1$s is not following anybody yet</string>
+
+    <string name="following_own_empty_title">You are not following anybody yet</string>
+
+    <string name="follower_other_empty_title">%1$s does not have followers yet</string>
+    <string name="follower_other_empty_subtitle">Follow this user now and grow your network</string>
+
+    <string name="follower_own_empty_title">You don\'t have any followers yet</string>
+    <string name="follower_own_empty_subtitle">Chat, post or follow to let others find you</string>
+
+    <!-- BANNER HOME ADD FRIENDS -->
+    <string name="banner_home_link_fb_text">Find your friends that are on %1$s</string>
+    <string name="banner_home_link_fb_button">Link %1$s</string>
+    <string name="banner_home_find_out_text">Find your friends that are on %1$s</string>
+    <string name="banner_home_find_out_button">Find out</string>
+    <string name="banner_home_login_text">Find your friends that are on %1$s</string>
+    <string name="banner_home_login_button">Login</string>
+    <string name="banner_home_fb_permissions_text">Find your %2$s friends that are on %1$s</string>
+    <string name="banner_home_fb_permissions_button">Give permissions</string>
+    <string name="banner_home_loading">We are looking for your friends in %1$s. Hang on.</string>
+
+    <!-- FOLLOW LIST-->
+    <string name="follow_share_with_your_friends">Invite friends to %1$s</string>
+    <string name="follow_autofollow_notification_message">We found your friends on %1$s! We added them to your list.</string>
+
+    <!-- FORCE UPDATE -->
+    <string name="force_update_dialog_title_hard">Update required</string>
+    <string name="force_update_dialog_title_soft">Update available</string>
+    <string name="force_update_dialog_description_hard">The app you are using is no longer supported. Please update to continue enjoying %1$s</string>
+    <string name="force_update_dialog_description_soft">There\'s a new version available, please update to fully enjoy %1$s</string>
+    <string name="force_update_dialog_button_update">Update</string>
+    <string name="force_update_dialog_button_not_now_button">Not Now</string>
+
+    <!-- AD / PROFILE REPORT -->
+    <string name="report_profile_title">"User report"</string>
+    <string name="report_profile_reason_1">"Inappropriate profile picture"</string>
+    <string name="report_profile_reason_2">"This user is threatening me"</string>
+    <string name="report_profile_reason_3">"This user is insulting me"</string>
+    <string name="report_profile_reason_4">"Spam"</string>
+    <string name="report_profile_reason_5">"Fraud"</string>
+    <string name="report_profile_reason_6">"Other"</string>
+    <string name="report_ad_title">"Item report"</string>
+    <string name="report_ad_reason_1">"Inappropriate item"</string>
+    <string name="report_ad_reason_2">"Fraud"</string>
+    <string name="report_ad_reason_3">"Duplicate ad"</string>
+    <string name="report_ad_reason_4">"Other"</string>
+    <string name="report_sent_message">"We'll be taking care of this as soon as possible."</string>
+    <string name="report_comment_hint">"Comment"</string>
+    <string name="report_button_send">"Send"</string>
+    <string name="report_button_cancel">"Cancel"</string>
+    <string name="report_error_no_reason">Please select a report reason</string>
+    <string name="report_error_no_comment">Please add a comment to help us understand what\'s wrong with this item.</string>
+
+    <!-- FIND FRIENDS -->
+    <string name="find_friends_fb_card_initial_state_title">Find friends from Facebook</string>
+    <string name="find_friends_card_in_progress_title">Looking for friends</string>
+    <string name="find_friends_card_in_progress_description">You can continue using the app while we search.</string>
+    <string name="find_friends_card_friends_found_title">We found %1$s friends in %2$s</string>
+    <string name="find_friends_card_friends_found_title_singular">We found %1$s friend in %2$s</string>
+    <string name="find_friends_card_friends_found_description">See who they are, what they are selling and follow them now.</string>
+    <string name="find_friends_card_friends_found_description_singular">Follow him now and see what is he selling.</string>
+    <string name="find_friends_card_friends_found_button">See friends</string>
+    <string name="find_friends_card_friends_found_button_singular">See friend</string>
+    <string name="find_friends_notification_friends_found">We found %1$s friends in %2$s</string>
+    <string name="find_friends_notification_friends_found_singular">We found %1$s friend in %2$s</string>
+    <string name="find_friends_card_no_friends_found_title">There are no new friends on %1$s</string>
+    <string name="find_friends_card_no_friends_found_description">Try adding friends from a different source or sharing %1$s.</string>
+    <string name="find_friends_notification_no_friends_found">There are no new friends on %1$s</string>
+    <string name="find_friends_user_suggest_title">People you may know</string>
+
+    <string name="find_friends_contact_card_initial_state_title">Find friends from your address book</string>
+
+    <string name="find_friends_by_name_card">Find friends in %1$s</string>
+    <string name="find_friends_by_name_action_bar_title">Find friends</string>
+    <string name="find_friends_by_name_placeholder">Search by name</string>
+    <string name="find_friends_by_name_empty_title">We couldn\'t find anyone with that name</string>
+
+
+    <!-- IMPORTED FRIENDS -->
+    <string name="imported_users_friends_count">%1$s friends</string>
+    <string name="imported_users_friends_count_singular">%1$s friend</string>
+    <string name="imported_users_select_all">select all</string>
+    <string name="imported_users_selected_count">%1$s selected</string>
+    <string name="imported_users_selected_count_singular">%1$s selected</string>
+    <string name="imported_users_follow">follow</string>
+
+    <string name="imported_users_dialog_message">You have %1$s friends pending to follow</string>
+    <string name="imported_users_dialog_follow">Follow (%1$s)</string>
+    <string name="imported_users_dialog_cancel">Cancel</string>
+    <string name="imported_users_dialog_exit">Exit</string>
+
+    <string name="imported_users_email_action_bar">Address book</string>
+    <string name="imported_users_email_first_tab_title">In %1$s</string>
+    <string name="imported_users_email_invite">Invite</string>
+    <!-- COACH MARK POSTING -->
+
+    <!-- POSTING BANNER HOME -->
+    <string name="banner_posting_home_title">Got unused stuff? Sell it on %1$s</string>
+    <string name="banner_posting_home_button">Post now</string>
+
+    <!-- POSTING BANNER FOLLOWING -->
+    <string name="banner_following_home_title">Start following friends and find out when they post</string>
+    <string name="banner_following_home_button">Start</string>
+
+    <string name="min">%1$s (min. %2$s)</string>
+    <string name="max">%1$s (max. %2$s)</string>
+
+    <!-- ON BOARDING -->
+    <string name="on_boarding_first_title"><![CDATA[ Find great<br><b>DEALS NEARBY</b> ]]></string>
+    <string name="on_boarding_second_title">Let\'s start</string>
+    <string name="on_boarding_second_subtitle">Select where are you using %1$s.</string>
+    <string name="on_boarding_third_title">Cool!</string>
+    <string name="on_boarding_third_subtitle">Now set your exact location to see nearby ads</string>
+    <string name="on_boarding_third_btn">Use this location</string>
+    <string name="on_boarding_fourth_title"><![CDATA[ Close them faster<br><b>WITH CHAT</b> ]]></string>
+    <string name="on_boarding_fifth_title"><![CDATA[ Find out what people<br><b>YOU KNOW ARE SELLING</b> ]]></string>
+    <string name="on_boarding_fifth_skip">Not now</string>
+    <string name="on_boarding_fifth_fb_first_line">Login and find your friends</string>
+
+    <string name="on_boarding_next_btn">Next</string>
+
+    <string name="on_boarding_my_network_menu_finish">Finish</string>
+    <string name="on_boarding_my_network_loading">Hold on! We\'re looking for your friends</string>
+    <string name="on_boarding_my_network_empty_state">It seems you don\'t have any friends on %1$s yet, why don\'t you invite some?</string>
+    <string name="on_boarding_my_network_invite_text">Invite friends</string>
+    <string name="on_boarding_my_network_snackbar">We found your friends on %1$s!</string>
+
+    <!-- FILTER -->
+    <string name="filter_location">Location</string>
+
+    <!-- ADD SECOND LOCATION -->
+    <string name="posting_location2_button_title">Add a second location</string>
+    <string name="posting_location2_toast">This will be available soon</string>
+    <string name="posting_location2_button_subtitle">i.e. Home, work&#8230; more people will see your ad</string>
+
+    <!-- NOTIFICATION CENTER -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_empty_state">No new notifications.\nStay tuned!</string>
+
+    <!-- INTERACTIVE PUSHES -->
+    <string name="notif_action_share">Share</string>
+    <string name="notif_action_view">View</string>
+    <string name="notif_action_why">Why</string>
+    <string name="notif_action_modify">Modify</string>
+    <string name="notif_action_follow">Follow</string>
+    <string name="notif_action_like">Like</string>
+    <string name="notif_action_view_all">View All</string>
+    <string name="notif_action_reply">Reply</string>
+    <string name="notif_action_delete">Delete</string>
+    <string name="notif_chat_stacked">You have %1$s unread conversations</string>
+
+    <!-- MY NETWORK SHARING -->
+    <string name="follower_share_with_your_friends">%1$s is more fun shared with friends</string>
+    <string name="following_share_with_your_friends">Get some followers to let people know when you post!</string>
+    <string name="follow_share_with_your_friends_button">Invite friends</string>
+
+    <!-- LOADING SCREEN FOR POSTING -->
+    <string name="app_posting_overlay_title">We\'re uploading your ad!</string>
+    <string name="app_posting_overlay_subtitle">In the meantime, share the app with your friends to expand the reach of your ad!</string>
+    <string name="app_posting_overlay_cta">Invite friends</string>
+
+    <!-- SETTINGS -->
+    <string name="preference_general_beta_title">Become a beta tester</string>
+    <string name="preference_general_beta_subtitle">You will get updates earlier and help us make %1$s more stable</string>
+    <string name="preference_notification_type_title">Notification Types</string>
+    <string name="preference_notification_styles_title">Notification Styles</string>
+
+    <string name="notif_settings_title">Notifications</string>
+    <string name="notif_settings_sound">Sound</string>
+    <string name="notif_settings_vibrate">Vibrate</string>
+    <string name="notif_settings_chat">Chat notifications are always on</string>
+    <string name="notif_settings_new_follower">New followers</string>
+    <string name="notif_settings_friend_post">Posts from people I follow</string>
+
+
+    <!-- HIDE MENU -->
+    <string name="preference_password_hint" translatable="false">Load secret password to see this functionality</string>
+
+    <string name="preference_log" translatable="false">Logs</string>
+    <string name="preference_log_retrofit" translatable="false">Show Retrofit Logs</string>
+    <string name="preference_log_show_logs" translatable="false">Show Application Logs</string>
+    <string name="preference_log_error_level" translatable="false">Error</string>
+    <string name="preference_log_warning_level" translatable="false">Warning</string>
+    <string name="preference_log_info_level" translatable="false">Info</string>
+    <string name="preference_log_debug_level" translatable="false">Debug</string>
+    <string name="preference_log_verbose_level" translatable="false">Verbose</string>
+    <string name="preference_country" translatable="false">Country</string>
+
+    <string name="preference_environment" translatable="false">Environment</string>
+    <string name="preference_environment_production" translatable="false">Production</string>
+    <string name="preference_environment_staging" translatable="false">Staging</string>
+    <string name="preference_environment_testing" translatable="false">Testing</string>
+    <string name="preference_environment_custom" translatable="false">Custom</string>
+    <string name="preference_environment_alert" translatable="false">Please close the app to apply the change of the environment</string>
+    <string name="preference_environment_phpstorm" translatable="false">PhpStorm debug</string>
+
+    <string name="preference_logout" translatable="false">Logout</string>
+
+    <string name="preference_debug" translatable="false">Debug</string>
+    <string name="preference_debug_ad_long_click" translatable="false">Show ad id on long click</string>
+    <string name="preference_debug_mix_panel" translatable="false">Mixpanel active</string>
+    <string name="preference_debug_new_message" translatable="false">Receive push new message</string>
+    <string name="preference_debug_simple_posting" translatable="false">Simple Posting</string>
+
+    <string name="preference_pre_production" translatable="false">Test trackers and crash</string>
+
+    <string name="preference_android" translatable="false">Android</string>
+    <string name="preference_android_package" translatable="false">Package: %1$s</string>
+    <string name="preference_android_version_name" translatable="false">Version Name: %1$s</string>
+    <string name="preference_android_version_code" translatable="false">Version Code: %1$s</string>
+
+    <!-- MAP -->
+    <string name="app_location_search">Search address</string>
+    <string name="app_location_toast">No results for %1$s</string>
+    <string name="error_title">Oops! Something\'s not right, but we\'re on it</string>
+    <string name="error_subtitle">Please try again in a moment</string>
+
+    <!-- SOCIAL -->
+    <string name="social_facebook" translatable="false">Facebook</string>
+    <string name="social_vk" translatable="false">VK</string>
+    <string name="social_email">Address book</string>
+    <string name="social_email_denied">We need your %1$s email permissions</string>
+    <string name="login_description_both_social">LOGIN AND FIND YOUR FRIENDS\n You will be able to chat, buy and sell.</string>
+    <string name="on_boarding_fifth_fb_first_line_both_social">Login and find your friends</string>
+    <string name="find_friends_social_card_initial_state_title">Find friends from %1$s</string>
+    <string name="notifications_reminder_title">You have %1$s unread notifications</string>
+    <string name="notifications_reminder_body">Check them now to avoid missing out deals</string>
+    <string name="notifications_reminder_settings">Unread notifications reminder</string>
+    <string name="login_phone_button_text">Login with your phone</string>
+
+    <!-- POSTING BREADCRUMB -->
+    <string name="breadcrumb_position_one" translatable="false">1</string>
+    <string name="breadcrumb_position_two" translatable="false">2</string>
+    <string name="breadcrumb_position_three" translatable="false">3</string>
+    <string name="breadcrumb_discard_dialog_title">Quit without saving?</string>
+    <string name="breadcrumb_discard_dialog_description">You will loose your post in progress</string>
+
+    <!-- POSTING DIALOG -->
+    <string name="posting_drag_drop_hint">Press and drag to reorder</string>
+    <string name="item_details_status_error">Your listing can\'t be published</string>
+    <string name="item_details_uploading">Posting your listing &#8230;</string>
+    <string name="posting_ad_published_successfully">Your listing is waiting to go live</string>
+    <string name="posting_max_images_reached">You reached the image limit</string>
+
+    <string name="group_name_category">Categories</string>
+    <string name="group_name_subcategory">Subcategories</string>
+    <string name="group_name_attributes">Attributes</string>
+    <string name="category_title">Category</string>
+    <string name="empty_select">Mmm&#8230; We didn\'t find anything for this :(</string>
+    <string name="information">Information</string>
+
+
+    <!-- FILTER -->
+    <string name="filters_apply">Apply</string>
+    <string name="filters_title">Filter</string>
+    <string name="filters_categories_title">Categories</string>
+    <string name="filters_subcategories_title">Subcategories</string>
+    <string name="filters_map_title">Where do you want to search?</string>
+    <string name="filters_location_filter">Location</string>
+    <string name="filters_remove_confirmation_title">You\'re about to remove all filters. Are you sure? </string>
+    <string name="filters_remove_confirmation_subtitle">All applied search filters will be gone.</string>
+    <string name="filters_map_cta">Use this location</string>
+    <string name="filters_map_filter_title">Choose your search starting point</string>
+    <string name="filters_remove_confirmation_cancel">Cancel</string>
+    <string name="filters_remove_confirmation_accept">Accept</string>
+    <string name="filters_plural">Filters</string>
+    <string name="field_min">Min.</string>
+    <string name="field_max">Max.</string>
+
+    <string name="admin_area_and_locality_separator" translatable="false">,&#160;</string>
+    <string name="location_without_name">Location is not recognised</string>
+
+    <string name="dialog_year_select_positive" translatable="false">Select</string>
+
+    <!-- CATEGORY BROWSING -->
+    <string name="category_browsing_select_category">Select a category</string>
+
+    <!-- PERMISSIONS -->
+    <string name="permissions_dialog_location_home_title">See ads nearby</string>
+    <string name="permissions_dialog_location_home_body">We need access to your location to show ads nearby</string>
+
+    <string name="permissions_dialog_account_find_friends_email_title">Find your friends</string>
+    <string name="permissions_dialog_account_find_friends_email_body">We need access to your contacts to use this feature</string>
+    <string name="permissions_denied_account_find_friends_email">We need this permission to perform this action</string>
+
+    <string name="permissions_dialog_gallery_posting_title">Add a picture of your item</string>
+    <string name="permissions_dialog_gallery_posting_body">We need your permissions to access your camera and gallery</string>
+    <string name="permissions_denied_gallery_posting">We need this permission to post an item</string>
+    
+    <!-- MONETIZATION FEATURED AD FLOW -->
+    <!-- Item View Touchpoint -->
+    <string name="feature_ad_item_page_card_title">Increase your ad visibility</string>
+    <string name="feature_ad_item_page_card_subtitle">Feature your ad and sell faster</string>
+    <string name="feature_ad_item_page_button">Feature ad</string>
+    <!-- Widget Touchpoint -->
+    <string name="feature_ad_widget_title">Get more people viewing your ad</string>
+    <string name="feature_ad_widget_button">Feature ad</string>
+    <!-- Afterposting Touchpoint -->
+    <string name="feature_ad_popup_description">Feature your ad and sell faster</string>
+    <string name="feature_ad_popup_ok_button">Feature ad</string>
+    <string name="feature_ad_popup_cancel_button">Maybe later</string>
+    <!-- Select Package -->
+    <string name="feature_ad_package_title">Feature Ad</string>
+    <string name="feature_ad_package_table_title">Choose an option</string>
+    <string name="feature_ad_package_up_to">Up to %1$s times more views</string>
+    <string name="feature_ad_package_duration_days">for %1$s days</string>
+    <string name="feature_ad_package_price_info">Featuring prices are based on your ad category and location.</string>
+    <string name="feature_ad_help_button">About feature ad.</string>
+    <!-- Help Modal -->
+    <string name="feature_ad_help_modal_title">How do feature ads work?</string>
+    <string name="feature_ad_help_modal_description">Your ad will occupy privileged positions in the search results and will have a special seal</string>
+    <string name="feature_ad_help_modal_button">Ok</string>
+    <!-- Success Package -->
+    <string name="feature_ad_popup_success_cc_title">Your ad will be %1$s in a few minutes</string>
+    <string name="feature_ad_popup_success_cc_description">Good luck with your sales!</string>
+    <string name="feature_ad_popup_success_cash_title">Done! Your ad will be %1$s once you make the payment</string>
+    <string name="feature_ad_popup_success_cash_description">You must complete the payment within the next 5 days</string>
+    <string name="feature_ad_success_preview">Preview</string>
+    <string name="feature_ad_item_view_pending_payment">Your payment is pending. If you have already paid, wait 24-48 hours for the activation.</string>
+	
+    <!-- MONETIZATION PAYMENT FLOW -->
+    <!-- Payment Methods -->
+    <string name="payment_method_title">Payment methods</string>
+    <string name="payment_mehotd_selected_package_title">Purchase Summary</string>
+    <string name="payment_mehotd_selected_package_description">Up to %1$s times more views for %2$s days</string>
+    <string name="payment_method_fragment_title">Choose an option</string>
+    <string name="payment_mehotd_cc_subtitle">VISA, Amex, Mastercard and more</string>
+    <!-- Credit Card -->
+    <string name="payment_cc_select_title">Credit Card</string>
+    <string name="payment_cc_provider_details_title">Payment details</string>
+    <!-- Payment Errors -->
+    <string name="payment_error_title">Payment details</string>
+    <string name="payment_error_message">Mmm... something went wrong</string>
+    <string name="payment_error_generic">We couldn\'t process your payment. Please try again or choose another payment method.</string>
+    <string name="payment_error_try_again_button">Try Again</string>
+    <string name="payment_error_another_payment_method_button">Another Payment Method</string>
+	
+    <!-- MONETIZATION TIPS -->
+    <string name="feature_ad_information_item_page_card_tips_button">How to reach more buyers?</string>
+    <string name="feature_ad_popup_tips_title">How to reach more buyers?</string>
+    <string name="feature_ad_popup_tips_list_title">Recommendations:</string>
+    <string name="feature_ad_popup_tips_tip1">Detailed description of what you are selling</string>
+    <string name="feature_ad_popup_tips_tip2">Quality images that shows the product clearly</string>
+    <string name="feature_ad_popup_tips_tip3">Competitive price</string>
+    <string name="feature_ad_popup_tips_button">Ok</string>
+	
+    <!-- MONETIZATION EXPIRATION FLOW -->
+    <string name="feature_ad_package_expired">Expired</string>
+    <string name="feature_ad_package_expired_reactivate">Reactivate</string>
+    <string name="feature_ad_package_expired_change_ad_type">Change ad type</string>
+    <string name="feature_ad_item_package_duration">%1$s days remaining</string>
+    <string name="feature_ad_item_package_description">Up to %1$s times more views</string>
+	
+</resources>
