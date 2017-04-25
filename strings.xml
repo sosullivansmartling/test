@@ -2,7 +2,7 @@
     <string name="kilometer" translatable="false">Km</string>
 
     <!-- THIS IS A TEST STRING FOR SMARLTING CONNECTOR -->
-    <string name="rama_test_string_smartling">The cat is not under the chair</string>
+    <string name="rama_test_string_smartling">The cat is not under the chair with updated string</string>
 	
     <!-- HOME FRAGMENT -->
     <string name="search_radious" translatable="false">%1$s %2$s</string>
